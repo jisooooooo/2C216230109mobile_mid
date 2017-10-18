@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 
 
-////////////
+//////////
 public class SubPage01 extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -31,6 +31,7 @@ public class SubPage01 extends Fragment {
 
 //public class SubPage01 extends Fragment {
 //
+//
 //    public View onCreateView(LayoutInflater inflater, ViewGroup container,
 //                             Bundle savedInstanceState) {
 //
@@ -44,10 +45,12 @@ public class SubPage01 extends Fragment {
 //        final CheckBox checkBox6 = (CheckBox)view.findViewById(R.id.checkBox6);
 //
 //
+//
 //        final TextView textView= (TextView)getView().findViewById(R.id.textView3);
 //
 //        final Button button = (Button) view.findViewById(R.id.button);
 //        button.setOnClickListener(new View.OnClickListener(){
+//
 //            public void onClick(View v){
 //                String result = "";  // 결과를 출력할 문자열  ,  항상 스트링은 빈문자열로 초기화 하는 습관을 가지자
 //                if(checkBox1.isChecked() == true) result += checkBox1.getText().toString();
